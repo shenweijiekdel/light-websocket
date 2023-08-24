@@ -12,3 +12,8 @@
 
 - 成本极小，只在 Websocket 数据帧首部插入 1 byte 的类型标识，剩余部分承载数据
 - 没有额外的协议封装，保持简单自由
+
+## 相关实现库
+
+- https://github.com/shenweijiekdel/light-websocket-client-ts (Typescript 客户端)
+- https://github.com/shenweijiekdel/light-websocket-server (Golang 服务端)
